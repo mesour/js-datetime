@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../node_modules/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<h1>Mesour datetime - picker</h1>
+
+			<div class="col-md-6">
+				<form class="form-inline">
+					<div class="form-group">
+						<input type="text" class="form-control" title="">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="../node_modules/eonasdan-bootstrap-datetimepicker/node_modules/moment/min/moment.min.js"></script>
+	<script src="../node_modules/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+
+	<script src="../node_modules/mesour-core/dist/mesour.min.js"></script>
+	<script src="../dist/mesour.datetime.min.js"></script>
+
+	<script>
+		$(function() {
+			window.picker = mesour.datetime.picker.create($('input:first'), 'YYYY-MM-DD');
+		});
+	</script>
+
+</body>
+</html>
