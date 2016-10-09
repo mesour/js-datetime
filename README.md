@@ -1,11 +1,11 @@
-[![NPM version](https://img.shields.io/npm/v/mesour-core.svg?style=flat-square)](http://badge.fury.io/js/mesour-core)
+[![NPM version](https://img.shields.io/npm/v/mesour-datetime.svg?style=flat-square)](http://badge.fury.io/js/mesour-datetime)
 
-# Mesour core
+# Mesour datetime
 
-Mesour core component.
+Mesour datetime component.
 
 ## Installation
 
 ```
-$ npm install mesour-core
+$ npm install mesour-datetime
 ```
