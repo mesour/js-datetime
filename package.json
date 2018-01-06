@@ -1,6 +1,6 @@
 {
   "name": "mesour-datetime",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mesour datetime component",
   "main": "index.js",
   "devDependencies": {
@@ -26,12 +26,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://git.mesour.com/mesour/mesour-datetime"
+    "url": "git+https://github.com/mesour/js-datetime"
   },
   "bugs": {
-    "url": "https://git.mesour.com/mesour/mesour-datetime/issues"
+    "url": "https://github.com/mesour/js-datetime/issues"
   },
-  "homepage": "https://git.mesour.com/mesour/mesour-datetime#readme",
+  "homepage": "https://github.com/mesour/js-datetime#readme",
   "dependencies": {
     "mesour-core": "^0.1.0"
   }
